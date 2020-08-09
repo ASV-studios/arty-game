@@ -13,6 +13,7 @@ public class NumberInput : MonoBehaviour
     void Start()
     {
         UpdatePartySize();
+        DisplayActiveCharacters();
     }
     public void ChangePartySize(int change)
     {
