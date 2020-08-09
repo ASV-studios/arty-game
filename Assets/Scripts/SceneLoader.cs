@@ -14,9 +14,9 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("Player Lobby Scene");
     }
 
-    public void LoadPlayScene()
+    public void LoadGameScene()
     {
-        SceneManager.LoadScene("Play Scene");
+        SceneManager.LoadScene("Game");
     }
 
 }
